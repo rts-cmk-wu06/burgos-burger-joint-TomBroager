@@ -1,0 +1,4 @@
+.Form__label {
+    font-size: clamp(10px, 3.73vw, 20px);
+    color: var(--labelTextColor);
+}

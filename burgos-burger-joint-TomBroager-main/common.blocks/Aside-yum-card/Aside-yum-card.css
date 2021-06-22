@@ -1,0 +1,7 @@
+.Aside-yum-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 106px 0;
+    background-image: linear-gradient(#fbb431, #f37535);
+}

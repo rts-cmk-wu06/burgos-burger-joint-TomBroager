@@ -1,0 +1,6 @@
+.Nav__ul {
+    display: flex;
+    list-style: none;
+    color: white;
+    gap: 10px;
+}

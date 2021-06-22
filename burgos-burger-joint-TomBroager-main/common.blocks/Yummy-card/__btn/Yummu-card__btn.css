@@ -1,0 +1,10 @@
+.Yummy-card__btn {
+    font-size: 34px;
+    width: 281px;
+    height: 96px;
+    color: black;
+    background: #fbb731;
+    border-radius: 10px;
+    margin-top: 40px;
+    border: none;
+}

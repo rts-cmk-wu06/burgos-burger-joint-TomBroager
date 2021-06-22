@@ -1,0 +1,6 @@
+.Card-container__heading {
+    flex-basis: 100%;
+    font-size: 3.75rem;
+    justify-self: flex-start;
+    margin-bottom: 54px;
+}

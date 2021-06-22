@@ -1,0 +1,10 @@
+.Gallery__frem-btn {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(0, -50%);
+    font-size: 50px;
+    color: white;
+    background: transparent;
+    border: none;
+}

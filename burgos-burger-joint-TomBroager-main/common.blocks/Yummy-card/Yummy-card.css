@@ -1,0 +1,7 @@
+.Yummy-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 1 / 2 / -1 / 3;
+    background-image: linear-gradient(#fbb431ab, #f37435b4);
+}

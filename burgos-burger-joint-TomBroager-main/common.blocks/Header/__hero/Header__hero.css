@@ -1,0 +1,4 @@
+.Header__hero {
+    display: flex;
+    grid-area: 1 / 1 / -1 / -1;
+}

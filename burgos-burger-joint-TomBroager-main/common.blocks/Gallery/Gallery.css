@@ -1,0 +1,8 @@
+.Gallery {
+    /* display: grid; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 610px;
+    gap: 20px;
+}

@@ -1,0 +1,8 @@
+.Gallery__thumbnail-image {
+    display: block;
+    width: 186px;
+    height: 186px;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+}

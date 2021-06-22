@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burgos Burger Joint</title>
+
+    <!-- =============== Styles =============== -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- =============== Header style =============== -->
+    <link rel="stylesheet" href="common.blocks/Header/Header.css">
+    <link rel="stylesheet" href="common.blocks/Header/__hero/Header__hero.css">
+    <link rel="stylesheet" href="common.blocks/Header/__image/Header__image.css">
+    
+    <!-- =============== Wrapper style =============== -->
+    <link rel="stylesheet" href="common.blocks/Wrapper/Wrapper.css">
+
+    <!-- =============== Logo style =============== -->
+    <link rel="stylesheet" href="common.blocks/Logo/Logo.css">
+    <link rel="stylesheet" href="common.blocks/Logo/__square/Logo__square.css">
+    <link rel="stylesheet" href="common.blocks/Logo/__image/Logo__image.css">
+    <link rel="stylesheet" href="common.blocks/Logo/__text/Logo__text.css">
+    
+    <!-- =============== Nav style =============== -->
+    <link rel="stylesheet" href="common.blocks/Nav/Nav.css">
+    <link rel="stylesheet" href="common.blocks/Nav/__ul/Nav__ul.css">
+    <link rel="stylesheet" href="common.blocks/Nav/__links/Nav__links.css">
+    
+    <!-- =============== Yummy card style =============== -->
+    <link rel="stylesheet" href="common.blocks/Yummy-card/Yummy-card.css">
+    <link rel="stylesheet" href="common.blocks/Yummy-card/__content/Yummy-card__content.css">
+    <link rel="stylesheet" href="common.blocks/Yummy-card/__heading/Yummu-card__heading.css">
+    <link rel="stylesheet" href="common.blocks/Yummy-card/__btn/Yummu-card__btn.css">
+
+    <!-- =============== Gallery style =============== -->
+    <link rel="stylesheet" href="common.blocks/Gallery/Gallery.css">
+    <link rel="stylesheet" href="common.blocks/Gallery/__large-view-container/Gallery__large-view-container.css">
+    <link rel="stylesheet" href="common.blocks/Gallery/__large-view/Gallery__large-view.css">
+    <link rel="stylesheet" href="common.blocks/Gallery/__large-image/Gallery__large-image.css">
+    <link rel="stylesheet" href="common.blocks/Gallery/__tilbage-btn/Gallery__tilbage-btn.css">
+    <link rel="stylesheet" href="common.blocks/Gallery/__frem-btn/Gallery__frem-btn.css">
+    <link rel="stylesheet" href="common.blocks/Gallery/__thumbnail-gallery/Gallery__thumbnail-gallery.css">
+    <link rel="stylesheet" href="common.blocks/Gallery/__thumbnail-image/Gallery__thumbnail-image.css">
+    
+    <!-- =============== Main style =============== -->
+    <link rel="stylesheet" href="common.blocks/Main/Main.css">
+    <link rel="stylesheet" href="common.blocks/Main/__heading/Main__headig.css">
+    <link rel="stylesheet" href="common.blocks/Main/__galleri/Main__gallery.css">
+    <link rel="stylesheet" href="common.blocks/Main/__text-content/Main__text-content.css">
+    <link rel="stylesheet" href="common.blocks/Main/__text-content-heading/Main__text-content-heading.css">
+    <link rel="stylesheet" href="common.blocks/Main/__text-content-text/Main__text-content-text.css">
+
+    <!-- =============== Card style =============== -->
+    <link rel="stylesheet" href="common.blocks/Card/Card.css">
+    <link rel="stylesheet" href="common.blocks/Card/__figure/Card__figure.css">
+    <link rel="stylesheet" href="common.blocks/Card/__image/Card__image.css">
+    <link rel="stylesheet" href="common.blocks/Card/__article/Card__article.css">
+    <link rel="stylesheet" href="common.blocks/Card/__heading/Card__heading.css">
+    <link rel="stylesheet" href="common.blocks/Card/__textContent/Card__textContent.css">
+    <link rel="stylesheet" href="common.blocks/Card/__button/Card__button.css">
+    
+    <link rel="stylesheet" href="common.blocks/Card-container/Card-container.css">
+    <link rel="stylesheet" href="common.blocks/Card-container/__heading/Card-container__heading.css">
+    
+    <!-- =============== Aside Yum-card style =============== -->
+    <link rel="stylesheet" href="common.blocks/Aside-yum-card/Aside-yum-card.css">
+
+    <!-- ==================== Form style ==================== -->
+    <link rel="stylesheet" href="common.blocks/Form/Form.css">
+    <link rel="stylesheet" href="common.blocks/Form/__label/Form__label.css">
+    <link rel="stylesheet" href="common.blocks/Form/__input/Form__input.css">
+    <link rel="stylesheet" href="common.blocks/Form/__textarea/Form__textarea.css">
+    <link rel="stylesheet" href="common.blocks/Form/__submit-btn/Form__submit-btn.css">
+    
+    <!-- ==================== Footer style ==================== -->
+    <link rel="stylesheet" href="common.blocks/Footer/Footer.css">
+    <link rel="stylesheet" href="common.blocks/Footer/__figure/Footer__figure.css">
+    <link rel="stylesheet" href="common.blocks/Footer/__heading/Footer__heading.css">
+    
+    <!-- ==================== link til Form JavaScript ==================== -->
+    <script src="common.blocks/Form/Form.js"></script>
+
+    <!-- ========== Gallery JavaScript ========== -->
+    <script src="common.blocks/Gallery/script.js" defer></script>
+
+    <!-- =============== Card script =============== -->
+    <script src="common.blocks/Card/Card.js" defer></script>
+
+    <!-- =============== Font family Nunito=============== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="Header">
+
+        <figure class="Header__hero">
+            <img src="images/hero01.jpg" alt="Burger and fries" class="Header__image">
+        </figure>
+
+        <div class="Wrapper">
+            <figure class="Logo">
+                <div class="Logo__square">
+                    <img src="images/burger_ikon.png" alt="Burgos Burger Logo" class="Logo__image">
+                </div>
+                <p class="Logo__text">Burger</p>
+            </figure>
+    
+            <nav class="Nav">
+                <ul class="Nav__ul">
+                    <li class="Nav__li">
+                        <a href="" class="Nav__links">home</a>
+                    </li>
+                    <li class="Nav__li">
+                        <a href="" class="Nav__links">gallei</a>
+                    </li>
+                    <li class="Nav__li">
+                        <a href="" class="Nav__links">anbefalede</a>
+                    </li>
+                    <li class="Nav__li">
+                        <a href="" class="Nav__links">kontakt</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <aside class="Yummy-card">
+            <div class="Yummy-card__content">
+                <h2 class="Yummy-card__heading">Vælg Din<br>Favorit<br>Yummy</h2>
+                <button class="Yummy-card__btn">Start</button>
+            </div>
+        </aside>
+
+    </header>
+
+        <main class="Main">
+            <h1 class="Main__heading">Galleri</h1>
+    
+            <div class="Gallery Main__gallery" id="gallery">
+                <div class="Gallery__large-view-container">
+                    <figure class="Gallery__large-view">  <!-- Stort billede -->
+                        <img class="Gallery__large-image" id="large-image" src="images/galleri05.jpg" alt="Burger">
+                    </figure>
+                </div>
+                <figure class="Gallery__thumbnail-gallery" id="thumbnail-gallery">
+                    <!-- ======================================= -->
+                    <!-- ===== Thumbnails fra images array ===== -->
+                    <!-- ======================================= -->
+                </figure>
+            </div>
+    
+            <div class="Main__text-content">
+                <h2 class="Main__text-content-heading">Vores YUMMY opskrift</h2>
+                <p class="Main__text-content-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap intoIt was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+            </div>
+        </main>
+
+        <aside class="Aside-yum-card">
+            <div class="Card-container" id="Card-container">
+                <h2 class="Card-container__heading">Anbefalede yummies</h2>
+
+            </div> 
+        </aside>
+
+        <form method="POST" name="kontakt-form" class="Form Form-fieldset__form" id="form" onsubmit="return valider(form)">
+            <input type="text" name="navn" class="Form__input" id="navn" placeholder="Navn">
+
+            <input type="text" name="email" class="Form__input" id="email" placeholder="Email">
+
+            <textarea name="besked" rows="6" class="Form__textarea" id="besked" placeholder="Skriv din besked her"></textarea>
+
+            <input type="submit" value="Send" class="Form__submit-btn" id="submit-btn">
+        </form>
+
+        <footer class="Footer">
+            <figure class="Footer__figure">
+                <img src="images/footer01.png" alt="Burger" class="Footer__image">
+            </figure>
+
+            <article class="Footer__article">
+                <h2 class="Footer__heading">Følg os på Instagram</h2>
+            </article>
+        </footer>
+
+    
+</body>
+</html>
